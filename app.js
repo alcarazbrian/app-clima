@@ -1,5 +1,5 @@
 const API_KEY = "187e5ee3b4e402f8d595d0289d16ddfb"
-const URL_BASE = "http://api.openweathermap.org/data/2.5/weather"
+const URL_BASE = "https://api.openweathermap.org/data/2.5/weather"
 
 const boton = document.getElementById('boton-clima')
 boton.addEventListener('click', () => {
@@ -16,13 +16,12 @@ function fetchMostrarDatos(ciudad){
     .catch(error => mostrarError(error));
 }
 
-function mostrarError(error){
+function mostrarError(_error){
     const divDatosClima = document.getElementById('datos-clima')
     divDatosClima.innerText = 'Error al ingresar ciudad. Por favor intente de nuevo'
 }
 
 function mostrarDatosClima(response){
-    console.log(response)
     const divDatosClima = document.getElementById('datos-clima')
     divDatosClima.innerText = ''
 
