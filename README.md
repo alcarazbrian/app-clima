@@ -23,6 +23,4 @@ Una aplicación web que permite consultar el clima de diferentes partes del mund
 
 ## Deploy
 
-## Deploy
-
 [![](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://app-clima-mundial.netlify.app/)
