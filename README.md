@@ -20,3 +20,9 @@ Una aplicación web que permite consultar el clima de diferentes partes del mund
 1. Ingresa el nombre de la ciudad en el campo de búsqueda.
 2. Haz clic en el botón "Ver Clima".
 3. La aplicación mostrará la información del clima para la ciudad ingresada.
+
+## Deploy
+
+## Deploy
+
+[![](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://app-clima-mundial.netlify.app/)
